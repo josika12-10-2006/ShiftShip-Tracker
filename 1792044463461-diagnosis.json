@@ -1,0 +1,216 @@
+{
+  "versionDetail": {
+    "architecture": "win32-x64",
+    "cliVersion": "@salesforce/cli/2.154.4",
+    "nodeVersion": "node-v24.21.0",
+    "osVersion": "Windows_NT 10.0.26200",
+    "rootPath": "C:\\Users\\acer\\AppData\\Local\\sf\\client\\2.154.4-6ed132b",
+    "shell": "cmd.exe",
+    "pluginVersions": [
+      "@oclif/plugin-autocomplete 4.0.2 (core)",
+      "@oclif/plugin-commands 5.0.2 (core)",
+      "@oclif/plugin-help 7.0.2 (core)",
+      "@oclif/plugin-not-found 4.0.2 (core)",
+      "@oclif/plugin-plugins 7.0.3 (core)",
+      "@oclif/plugin-search 2.0.0 (core)",
+      "@oclif/plugin-update 5.0.2 (core)",
+      "@oclif/plugin-version 3.0.2 (core)",
+      "@oclif/plugin-warn-if-update-available 4.0.1 (core)",
+      "@oclif/plugin-which 4.0.1 (core)",
+      "@salesforce/cli 2.154.4 (core)",
+      "agent 2.2.2 (core)",
+      "apex 4.3.4 (core)",
+      "api 2.0.12 (core)",
+      "auth 5.0.12 (core)",
+      "data 5.1.10 (core)",
+      "deploy-retrieve 4.2.6 (core)",
+      "info 4.0.13 (core)",
+      "limits 4.0.6 (core)",
+      "marketplace 2.0.7 (core)",
+      "org 6.0.18 (core)",
+      "packaging 3.0.8 (core)",
+      "schema 4.0.8 (core)",
+      "settings 3.0.8 (core)",
+      "sobject 2.0.7 (core)",
+      "telemetry 4.1.1 (core)",
+      "templates 57.4.1 (core)",
+      "trust 4.0.13 (core)",
+      "user 5.0.7 (core)"
+    ]
+  },
+  "sfdxEnvVars": [],
+  "sfEnvVars": [
+    [
+      "SF_AUTOUPDATE_DISABLE",
+      "true"
+    ],
+    [
+      "SF_BINPATH",
+      "C:\\Users\\acer\\AppData\\Local\\sf\\client\\bin\\sf"
+    ],
+    [
+      "SF_DISABLE_AUTOUPDATE",
+      "true"
+    ],
+    [
+      "SF_UPDATE_INSTRUCTIONS",
+      "Use \"npm update --global @salesforce/cli\" to update npm-based installations."
+    ]
+  ],
+  "proxyEnvVars": [],
+  "cliConfig": {
+    "arch": "x64",
+    "bin": "sf",
+    "binAliases": [
+      "sfdx"
+    ],
+    "binPath": "C:\\Users\\acer\\AppData\\Local\\sf\\client\\bin\\sf",
+    "cacheDir": "C:\\Users\\acer\\AppData\\Local\\sf",
+    "channel": "stable",
+    "configDir": "C:\\Users\\acer\\AppData\\Local\\sf",
+    "dataDir": "C:\\Users\\acer\\AppData\\Local\\sf",
+    "dirname": "sf",
+    "flexibleTaxonomy": true,
+    "home": "C:\\Users\\acer",
+    "isSingleCommandCLI": false,
+    "name": "@salesforce/cli",
+    "nsisCustomization": "scripts/nsis.nsi",
+    "platform": "win32",
+    "root": "C:\\Users\\acer\\AppData\\Local\\sf\\client\\2.154.4-6ed132b",
+    "shell": "cmd.exe",
+    "theme": {
+      "bin": "blueBright",
+      "command": "blueBright",
+      "dollarSign": "green",
+      "flag": "green",
+      "flagDefaultValue": "blueBright",
+      "flagOptions": "blueBright",
+      "flagRequired": "red",
+      "sectionHeader": "blue",
+      "topic": "blueBright",
+      "json": {
+        "brace": "whiteBright",
+        "bracket": "whiteBright",
+        "comma": "green",
+        "key": "blueBright",
+        "string": "greenBright",
+        "number": "blue",
+        "boolean": "redBright",
+        "null": "blackBright"
+      }
+    },
+    "topicSeparator": " ",
+    "updateConfig": {
+      "node": {
+        "options": [
+          "--no-deprecation"
+        ]
+      },
+      "s3": {
+        "bucket": "dfc-data-production",
+        "host": "https://developer.salesforce.com",
+        "templates": {
+          "target": {
+            "baseDir": "<%- bin %>",
+            "manifest": "<%- channel === 'stable' ? '' : 'channels/' + channel + '/' %><%- platform %>-<%- arch %>",
+            "unversioned": "<%- channel === 'stable' ? '' : 'channels/' + channel + '/' %><%- bin %>-<%- platform %>-<%- arch %><%- ext %>",
+            "versioned": "<%- channel === 'stable' ? '' : 'channels/' + channel + '/' %><%- bin %>-v<%- version %>/<%- bin %>-v<%- version %>-<%- platform %>-<%- arch %><%- ext %>"
+          },
+          "vanilla": {
+            "baseDir": "<%- bin %>",
+            "manifest": "<%- channel === 'stable' ? '' : 'channels/' + channel + '/' %>version",
+            "unversioned": "<%- channel === 'stable' ? '' : 'channels/' + channel + '/' %><%- bin %><%- ext %>",
+            "versioned": "<%- channel === 'stable' ? '' : 'channels/' + channel + '/' %><%- bin %>-v<%- version %>/<%- bin %>-v<%- version %><%- ext %>"
+          }
+        }
+      }
+    },
+    "userAgent": "@salesforce/cli/2.154.4 win32-x64 node-v24.21.0",
+    "valid": true,
+    "version": "2.154.4",
+    "warned": false,
+    "windows": true,
+    "_base": "@oclif/core@5.1.2",
+    "_commands": {},
+    "_topics": {},
+    "commandPermutations": {
+      "validPermutations": {}
+    },
+    "pluginLoader": {
+      "options": {
+        "plugins": {},
+        "root": "C:\\Users\\acer\\AppData\\Local\\sf\\client\\2.154.4-6ed132b\\dist"
+      },
+      "errors": [],
+      "plugins": {},
+      "pluginsProvided": true
+    },
+    "topicPermutations": {
+      "validPermutations": {}
+    },
+    "nodeEngine": ">=22.0.0"
+  },
+  "pluginSpecificData": {
+    "@salesforce/plugin-deploy-retrieve": [
+      {
+        "sourceApiVersion": "67.0",
+        "targetOrgApiVersion": "68.0"
+      }
+    ]
+  },
+  "diagnosticResults": [
+    {
+      "testName": "salesforcedx plugin isn’t installed",
+      "status": "pass"
+    },
+    {
+      "testName": "you don't have any linked plugins",
+      "status": "pass"
+    },
+    {
+      "testName": "[@salesforce/plugin-trust] can ping: https://registry.npmjs.org",
+      "status": "pass"
+    },
+    {
+      "testName": "[@salesforce/plugin-trust] can ping: https://registry.yarnpkg.com",
+      "status": "pass"
+    },
+    {
+      "testName": "[@salesforce/plugin-trust] can ping: https://registry.npmjs.org/",
+      "status": "pass"
+    },
+    {
+      "testName": "using latest or latest-rc CLI version",
+      "status": "unknown"
+    },
+    {
+      "testName": "can access: https://test.salesforce.com",
+      "status": "pass"
+    },
+    {
+      "testName": "[@salesforce/plugin-deploy-retrieve] sourceApiVersion matches apiVersion",
+      "status": "pass"
+    },
+    {
+      "testName": "[@salesforce/plugin-deploy-retrieve] sourceApiVersion matches default target org max apiVersion",
+      "status": "warn"
+    },
+    {
+      "testName": "can access: https://appexchange.salesforce.com/services/data",
+      "status": "pass"
+    },
+    {
+      "testName": "can access: https://developer.salesforce.com/media/salesforce-cli/sf/channels/stable/sf-win32-x64-buildmanifest",
+      "status": "pass"
+    }
+  ],
+  "suggestions": [
+    "Check https://github.com/forcedotcom/cli/issues for CLI issues posted by the community.",
+    "Check http://status.salesforce.com for general Salesforce availability and performance.",
+    "using npm registry https://registry.npmjs.org/ from npm config",
+    "Couldn't determine latest CLI version due to:\n'C:\\Program' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "The sourceApiVersion in sfdx-project.json doesn't match the max apiVersion of the default target org. As a result, you're not using the latest features available in API version 68.0. The version mismatch isn't a problem, as long as it's the behavior you actually want."
+  ],
+  "logFilePaths": [],
+  "commandExitCode": 0
+}
